@@ -51,4 +51,8 @@ $(function () {
         }
     });
 
+    $('.header .mopen').on('click', function () {
+        $('.gnb').toggleClass('on')
+    });
+
 });
