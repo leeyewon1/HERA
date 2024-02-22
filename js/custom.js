@@ -16,6 +16,15 @@ $(function () {
         dots: false,
         slidesPerGroup: 4,
 
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+
 
     });
 
