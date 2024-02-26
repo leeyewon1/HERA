@@ -1,4 +1,9 @@
 $(function () {
+
+    $('.header .mopen').on('click', function () {
+        $('.gnb').toggleClass('on')
+    });
+
     $('.main_visual .visual_slide').slick({
         arrows: false,
         autoplay: true,
